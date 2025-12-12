@@ -1,0 +1,17 @@
+# Reverse a String
+def reverse_string(s):
+    return s[::-1]          
+input_str = input("Enter a string to reverse: ")
+reversed_str = reverse_string(input_str)
+print("Reversed string:", reversed_str) 
+
+
+text = "sravanireddy"
+print(text[::-1])
+
+
+text = "Loukika"
+print(text[::-1])
+
+
+
